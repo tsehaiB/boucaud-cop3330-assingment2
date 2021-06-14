@@ -1,0 +1,13 @@
+@startuml
+
+start
+repeat :Read next number;
+  :add number to sum;
+  :numbers entered++;
+repeat while (numbers entered) is (<5)
+->>5;
+-Print Sum
+
+stop
+
+@enduml
